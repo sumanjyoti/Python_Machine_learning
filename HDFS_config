@@ -1,0 +1,37 @@
+
+sudo yum install wget
+https://docs.cloudera.com/HDPDocuments/Ambari-2.1.0.0/bk_Installing_HDP_AMB/content/_download_the_ambari_repo_lnx7.html
+
+Log in to your host as root.
+
+Download the Ambari repository file to a directory on your installation host.
+wget -nv http://public-repo-1.hortonworks.com/ambari/centos7/2.x/updates/2.1.0/ambari.repo -O /etc/yum.repos.d/ambari.repo
+
+Confirm that the repository is configured by checking the repo list.
+yum repolist You should see values similar to the following for Ambari repositories in the list.
+
+Version values vary, depending on the installation.
+
+
+
+hive
+beeline
+
+hbase shell  
+status
+hdfs dfs -ls / 
+hadoop jar $HADOOP_HOME/hadoop-*test*.jar TestDFSIO -write -nrfiles 20 -fileSize 1MB
+
+locate tests.jarget
+isi 
+
+troughput i sf or a hadoop task and not the entire cluster.
+
+
+h500 
+
+
+
+
+
+_______________________________________________________________________________________________________________
